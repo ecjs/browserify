@@ -17,6 +17,6 @@
   ],
   "dependencies": {
     "jquery": "~2.1.1",
-    "impress.js": "~0.5.3"
+    "impress.js": "git://github.com/bartaz/impress.js.git#master"
   }
 }
