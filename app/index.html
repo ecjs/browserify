@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=1024" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta charset="UTF-8">
+  <title>Browserify/Sass/Famo.us Demo</title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body class="impress-not-supported">
+  <div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+  </div>
+  <div id="impress">
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+      <img src="img/famous.png" width="200px" height="200px"><br>
+      <q><b>Presentation with Impress.js</b></q><br>
+      <q><b>Utilizing Browserify/Sass</b></q>
+    </div>
+    <div class="step slide" data-x="0" data-y="-1500">
+      <q>First: Impress.js - Using CSS3 transforms and transitions<strong>in modern browsers</strong>.</q>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+      <q>Now on to Famo<strong>.us</strong>, a framework for stunning visual control, <strong>smooth UIs</strong> with great performance. </q>
+      <h3>Type your git username, and submit!</h3>
+      <input id="gitusername">
+      <button id ='gitUser'>Submit</button>
+      <div id="image"></div>
+    </div>
+  </div>
+  <script src="bundle.js"></script>
+  <script>impress().init();</script>
+</body>
+</html>
